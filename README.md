@@ -75,7 +75,7 @@ return 0;
   while(guess!=number && trycount<8)
   {
      cout<<"Please enter a guess:";
-     cin >> guess;
+     cin>> guess;
   if (guess<number)
      cout<<"Too Low"<<endl;
  if (guess>number);
@@ -109,6 +109,20 @@ return 0;
   << "cm the SurfaceArea is" <<SurfaceArea 
   << " sq cm"
   cout << endl << endl;
+  return 0;
+  
+  #include<iostream>
+  #include<cmath>
+  using namespace std;
+  int main ()
+  {
+  int x = 0, y = 0;
+  cout<<"Enter a Number to find it's Factorial";
+  cin<<x<<endl;
+  
+  y = x!;
+  
+  cout<<"The Factorial of"<<x<<"is"<<y<<endl;
   return 0;
   
   
